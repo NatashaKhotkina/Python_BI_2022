@@ -5,7 +5,7 @@ This is my repository for home tasks in the Python course at the Bioinformatics 
 We have worked with different libraries, including:
 + `numpy`, `pandas`
 + `seaborn`, `matplotlib`
-+
++ `re`
 +
 +
 
@@ -42,4 +42,7 @@ The utility [numpy_challenge](https://github.com/NatashaKhotkina/Python_BI_2022/
 In this homework, I practised data analysis with pandas and data visualisation with matplotlib and seaborn. 
 I have written functions __read_gff__ and __read_bed6__, which read `.gff` and `.bed` files, correspondingly, and return pandas DataFrames; reconstructed `bedtools intersect` using `pandas`.
 I also castommized __volcano plot__ for __DEG__ visualization - [take a look](https://github.com/NatashaKhotkina/Python_BI_2022/blob/main/pandas_and_visualization/Python_pandas_visualization.ipynb)!
+
+## Homework 6. Regular expressions.
+Here I solved different tasks, using `re.findall` and `re.sub`.
 
