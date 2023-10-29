@@ -9,7 +9,7 @@ We have worked with different libraries, including:
 + `sys`, `os`, `io`
 + `abc`
 + `requests`, `BeautifulSoup`
-+ `typing
++ `typing`
 + `warnings`
 + `threading`
 
