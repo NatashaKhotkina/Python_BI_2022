@@ -6,8 +6,12 @@ We have worked with different libraries, including:
 + `numpy`, `pandas`
 + `seaborn`, `matplotlib`
 + `re`
-+
-+
++ `sys`, `os`, `io`
++ `abc`
++ `requests`, `BeautifulSoup`
++ `typing
++ `warnings`
++ `threading`
 
 
 ## Homework 1. Collections
