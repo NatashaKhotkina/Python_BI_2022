@@ -6,21 +6,17 @@ def matrix_multiplication(x1, x2):
 
 
 def multiplication_check(matrices):
-    flag = True
     for idx in range(len(matrices) - 1):
         if matrices[idx].shape[1] != matrices[idx + 1].shape[0]:
-            flag = False
-    return flag
+            return False
+    return True
 
 
 def multiply_matrices(matrices):
     if not multiplication_check(matrices):
         return None
     else:
-        multiplier = matrices[0]
-        for matrix in matrices[1:]:
-            multiplier = np.matmul(multiplier, matrix)
-        return multiplier
+        return np.linalg.multi_dot(matrices)
 
 
 def compute_2d_distance(arr1, arr2):
