@@ -3,8 +3,8 @@
 Welcome!
 This is my repository for home tasks in the Python course at the Bioinformatics Institute. During the course, we have studied __collections__, __PEP8__, __files__, __virtual environment__, __numpy__, __pandas__, __visuaalization__, __regular expressions__, __functional programming__, __sys__, __os__, __OOP__, __decorators__, __iterators__, __web requests__, __parallel programming__, __type annotation__, __logging__.
 We have worked with different libraries, including:
-+ `numpy`
-+
++ `numpy`, `pandas`
++ `seaborn`, `matplotlib`
 +
 +
 +
@@ -37,3 +37,9 @@ The utility [numpy_challenge](https://github.com/NatashaKhotkina/Python_BI_2022/
 + __compute_2d_distance__ takes 2 one-dimensional arrays with a pair of values and calculates the distance between them.
 + __compute_multidimensional_distance__ takes 2 one-dimensional arrays with any equal number of values and calculates the distance between them.
 + __compute_pair_distances__ takes a 2d array and calculates a matrix of pairwise distances.
+
+## Homework 5. Pandas and visualisation (matplotlib, seaborn)
+In this homework, I practised data analysis with pandas and data visualisation with matplotlib and seaborn. 
+I have written functions __read_gff__ and __read_bed6__, which read `.gff` and `.bed` files, correspondingly, and return pandas DataFrames; reconstructed `bedtools intersect` using `pandas`.
+I also castommized __volcano plot__ for __DEG__ visualization - [take a look](https://github.com/NatashaKhotkina/Python_BI_2022/blob/main/pandas_and_visualization/Python_pandas_visualization.ipynb)!
+
