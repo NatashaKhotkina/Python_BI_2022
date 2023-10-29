@@ -19,7 +19,7 @@ We have worked with different libraries, including:
 + __reverse complement__ — print the reverse complementary sequence
 
 ## Homework 2. Files, FastQ filtrator.
-This script works with fastq files.
+[This script](https://github.com/NatashaKhotkina/Python_BI_2022/blob/main/homework2/fastq-filtrator.py) works with fastq files.
 It can:
 + Filter reads by GC content;
 + Filter reads by their quality;
