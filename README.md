@@ -18,3 +18,10 @@ We have worked with different libraries, including:
 + __complement__ — print the complementary sequence
 + __reverse complement__ — print the reverse complementary sequence
 
+## Homework 2. Files, FastQ filtrator.
+This script works with fastq files.
+It can:
++ Filter reads by GC content;
++ Filter reads by their quality;
++ Filter reads by their length;
++ Save filtered and failed reads to different files.
