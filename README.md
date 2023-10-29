@@ -25,3 +25,6 @@ It can:
 + Filter reads by their quality;
 + Filter reads by their length;
 + Save filtered and failed reads to different files.
+
+## Homework 3. Virtual environment.
+Programmer Mikhail became extremely interested in virtual environments and decided to explore them in more detail. After many years of research, he published the article and even attached the code on GitHub (https://github.com/krglkvrmn/Virtual_environment_research). Mikhail claims that anyone can easily reproduce his results. However, in practice, it turned out that Mikhail’s code cannot be run by other people. [Here](https://github.com/NatashaKhotkina/Python_BI_2022/tree/main/homework_3) you can find requirements.txt file and instructions for running Mikhail's script [pain.py](https://github.com/NatashaKhotkina/Python_BI_2022/blob/main/homework_3/pain.py).
