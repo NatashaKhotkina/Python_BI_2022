@@ -39,7 +39,7 @@ def check_gc(seq_line, gc_bounds):
     seq_len = len(seq_line)
     n_c = seq_line.count('C')
     n_g = seq_line.count('G')
-    count_gc = (n_c + n_g) / seq_len * 100
+    count_gc = (n_c+n_g) / seq_len * 100
     if isinstance(gc_bounds, int) or isinstance(gc_bounds, float):
         higher_bound = gc_bounds
         lower_bound = 0
@@ -50,7 +50,7 @@ def check_gc(seq_line, gc_bounds):
 
 
 def check_quality(qual_line, quality_threshold):
-    quality = sum(ord(i) - 33 for i in qual_line)/len(qual_line)
+    quality = sum(ord(i) - 33 for i in qual_line) / len(qual_line)
     return quality >= quality_threshold
 
 
